@@ -1,0 +1,37 @@
+﻿
+
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = ".\", ".", "{BE73A5E3-63E8-4692-A2BA-6C20431427A8}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/CMStTrafficSafety"
+		Debug.AspNetCompiler.PhysicalPath = "..\CMStTrafficSafety\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\CMStTrafficSafety\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/CMStTrafficSafety"
+		Release.AspNetCompiler.PhysicalPath = "..\CMStTrafficSafety\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\CMStTrafficSafety\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2067"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE73A5E3-63E8-4692-A2BA-6C20431427A8}.Debug|.NET.ActiveCfg = Debug|.NET
+		{BE73A5E3-63E8-4692-A2BA-6C20431427A8}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
