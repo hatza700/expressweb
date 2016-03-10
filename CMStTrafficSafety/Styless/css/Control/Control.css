@@ -1,0 +1,115 @@
+﻿
+span.imgcustom 
+{margin-right:20px;
+ 
+	 float:right;
+	
+	vertical-align:middle;
+	text-align:left;
+	width:90%;
+	background-image:url(../GridviewCss/style2/imgicon/custom.gif);
+	 background-position: right center;
+	 background-repeat:no-repeat;
+}
+span.imgdefault  
+{ margin-right:20px;
+	 float:right;
+	 position:relative;
+	vertical-align:middle;
+	text-align:left;
+	width:90%;
+	background-image:url(../GridviewCss/style2/imgicon/default.gif);
+	 background-position: right center;
+	 background-repeat:no-repeat;
+}
+
+
+.approved {
+	display: block;
+	display: inline-block;
+	padding: 0 20px 0 0;
+	background:url(approved.gif) no-repeat right center;
+}
+
+.pending {
+	display: block;
+	display: inline-block;
+	padding: 0 20px 0 0;
+	background:url(Symbols-Warning-icon.png) no-repeat right center;
+}
+.video_tour { display: block;
+	display: inline-block;
+	padding: 0 20px 0 0;
+	background:url(Button-Play-icon.png) no-repeat right top;height:20px; vertical-align:middle;margin-top:7px;}
+.images_tour {display: block;
+	display: inline-block;
+	padding: 0 29px 0 0;
+	background:url(text-icon.png) no-repeat right top;vertical-align:middle;height:20px; margin-top:7px;}
+.numbercenter {
+	display: block;
+	display: inline-block;
+	width:100%;
+	padding-left:17px;
+	color:#03C;
+	font-weight:bold;
+	
+}
+.numbercenternormal
+{
+		display: block;
+	display: inline-block;
+	width:100%;
+	padding-left:17px;
+	color:Red;
+	color:#443D37;
+
+	
+}
+
+
+.HiddenForm_huyenhs
+    {display:none;
+    	}
+    	
+.TieuDetinTuc
+{
+font-weight: bold;
+font-size: 14px;
+}   
+.noiDungTomTattinTuc 	
+{font-weight: bold;
+font-size: 13px;
+	color: #734D99;
+}
+.Noidungchitiet
+{
+	border: 1px solid #DDD;
+	width:99%
+}
+.Albumanh
+{
+	
+}
+.Albumanh a
+{color:#447A01;
+	}
+	.Albumanh a:hover
+	{
+		color:#D49508;
+		}
+
+.reply {
+	display: block;
+	display: inline-block;
+	padding: 0 20px 0 0;
+	background:url(Email-Reply-icon.png) no-repeat right center;
+	 background-size:20px;
+}
+.unread { text-decoration:none; font-weight:bold;color:#222;}
+a.unread1  {text-decoration:none; font-weight:bold;color:#222;font-size: 90%;}
+.read { text-decoration:none; font-weight:bold;color:#222;font-size: 90%;}
+a.read1  {text-decoration:none; font-weight:normal;color:#222;font-size: 90%;}
+.y2 {
+color: #777;font-size: 90%;
+}
+
