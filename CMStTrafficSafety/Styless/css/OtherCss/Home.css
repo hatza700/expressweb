@@ -1,0 +1,108 @@
+﻿.clear:after 			{ content: "."; display: block; height: 0; overflow:hidden; clear: both; visibility: hidden; }
+.clean-margin			{ margin: 0px !important; }
+.clean-padding			{ padding: 0px !important; }
+/***************
+**** COLUMNS ***
+***************/
+
+/* main columns */
+
+.columns		{ width: 100%; }
+.lastcol		{ margin-right: 0px !important; }
+.col1-2			{ width: 312px; float: left; margin-right: 32px; }
+.col1-3			{ width: 312px; float: left; margin-right: 32px; }
+.col2-3			{ width: 656px; float: left; margin-right: 32px; }
+.col1-4			{ width: 226px; float: left; margin-right: 32px; }
+.col2-4			{ width: 484px; float: left; margin-right: 32px; }
+.col3-4			{ width: 742px; float: left; margin-right: 32px; }
+
+/* cols inside of main columns */
+
+.col2-3 .col1-2		{ width: 312px; float: left; margin-right: 32px; }
+.col2-3 .col1-3		{ width: 198px; float: left; margin-right: 31px; }
+.col2-3 .col2-3		{ width: 427px; float: left; margin-right: 31px; }
+.col3-4	.col1-3		{ width: 226px; float: left; margin-right: 32px; }
+.col3-4	.col2-3		{ width: 484px; float: left; margin-right: 32px; }
+.col3-4 .col1-4		{ width: 163px; float: left; margin-right: 30px; }
+.col3-4 .col2-4		{ width: 356px; float: left; margin-right: 30px; }
+.col3-4 .col3-4		{ width: 549px; float: left; margin-right: 30px; }
+
+/* cols inside of fullboxes */
+
+.content-box .col1-2	{ width: 468px; float: left; margin-right: 18px; }
+.content-box .col1-3	{ width: 306px; float: left; margin-right: 18px; }
+.content-box .col2-3	{ width: 630px; float: left; margin-right: 18px; }
+.content-box .col1-4	{ width: 225px; float: left; margin-right: 18px; }
+.content-box .col2-4	{ width: 468px; float: left; margin-right: 18px; }
+.content-box .col3-4	{ width: 711px; float: left; margin-right: 18px; }
+
+/* cols for boxes with sidebars */
+
+.content-box .col1-2 .col1-2	{ width: 225px; float: left; margin-right: 18px; }
+.content-box .col2-3 .col1-2	{ width: 306px; float: left; margin-right: 18px; }
+.content-box .col3-4 .col1-2	{ width: 346px; float: left; margin-right: 19px; }
+.content-box .col3-4 .col1-3	{ width: 225px; float: left; margin-right: 18px; }
+.content-box .col3-4 .col2-3	{ width: 468px; float: left; margin-right: 18px; }
+
+.sidebar1-2 .sidebar .col1-2	{ width: 214px; float: left; margin-right: 20px;}
+
+/* cols for boxes(without sidebars only) inside of main columns */
+
+.col1-2	.content-box .col1-2 	{ width: 210px; float: left; margin-right: 18px; }
+.col2-3	.content-box .col1-2 	{ width: 296px; float: left; margin-right: 18px; }
+.col2-3	.content-box .col1-3 	{ width: 192px; float: left; margin-right: 17px; }
+.col2-3	.content-box .col2-3 	{ width: 401px; float: left; margin-right: 17px; }
+.col2-4	.content-box .col1-2 	{ width: 210px; float: left; margin-right: 18px; }
+.col3-4	.content-box .col1-2 	{ width: 339px; float: left; margin-right: 18px; }
+.col3-4	.content-box .col1-3 	{ width: 220px; float: left; margin-right: 18px; }
+.col3-4	.content-box .col2-3 	{ width: 458px; float: left; margin-right: 18px; }
+
+
+
+
+
+/**************
+**** tables ***
+**************/
+
+table				{ width: 100%; margin: 0px; margin-bottom: 20px; }
+
+table.basic			{ border-spacing: 0px; border-collapse: separate; border-top: 3px solid #cccccc; border-bottom: 1px solid #FFFFFF; line-height: 16px; }
+table.basic caption		{ background: none #bbbbbb; color: #FFFFFF; font-size: 14px; padding: 5px 11px 5px 11px; text-align: center;}
+table.basic tr:hover		{ background: none !important; }
+table.basic thead		{ color: #333333; }
+table.basic th,
+table.basic .title		{ border-top: 1px solid #FFFFFF; border-bottom: 1px solid #cccccc; font-weight: bold; padding:  0px; white-space: nowrap; text-align: left; }
+table.basic tbody th		{ }
+table.basic td			{ background: none !important; border-top: 1px solid #FFFFFF; border-bottom: 1px solid #cccccc; padding: 3px 8px 3px 0px !important; line-height: 16px !important; }
+table.basic thead		{ border-top: 1px solid #FFFFFF; border-bottom: 1px solid #cccccc; padding: 3px 6px 3px 0px; white-space: nowrap; }
+table.basic td p		{ padding-bottom: 3px; padding-top: 3px; }
+table .vcenter			{ vertical-align: middle; }
+table .full			{ width: 100%; }
+table .value			{ color: #47AB00; }
+table .nowrap			{ white-space: nowrap; }
+
+.thnonbasic{border-bottom: 1px solid #CCC;
+border-top: 1px solid white;
+font-weight: bold;
+padding: 0px;
+text-align: left;
+white-space: nowrap;}
+
+
+/*  */
+.ghichu
+{
+	width:99%;
+}
+
+.checkboxlistcss
+{clear: right;
+	text-align:left;
+	float:left;
+	text-transform:inherit;
+	direction:ltr;
+	 
+	
+padding-bottom:6px;
+	}
