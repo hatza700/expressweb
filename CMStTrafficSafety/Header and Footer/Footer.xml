@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ComponentDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.ironspeed.com/designer">
+  <Generator>Iron Speed Designer</Generator>
+  <Version>9.0.1</Version>
+  <Self>
+    <Name>Footer</Name>
+    <Type>Footer</Type>
+    <SubType>DotNet</SubType>
+    <GenerateDirectory>Header and Footer</GenerateDirectory>
+    <Layout>Header and Footer\Footer.html</Layout>
+    <DisplayName>Footer</DisplayName>
+    <Description>(Description)</Description>
+  </Self>
+  <ComposedOf />
+  <LayoutDefinition>&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;LayoutDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Layout Name="Footer" Type="RootLayout"&gt;
+    &lt;Prolog /&gt;
+    &lt;Row&gt;
+      &lt;Cell&gt;
+        &lt;Value&gt;&amp;lt;div class="footer"&amp;gt;
+&amp;lt;span&amp;gt;Powered by &amp;lt;a style="color:#fff;" href="http://www.mt.gov.vn" target="_blank" title="Phòng cơ sở dư liệu và phát triển phần mềm-TTCNTT-Bộ GTVT"&amp;gt;TTCNTT Bộ GTVT&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;
+&amp;lt;/div&amp;gt;&lt;/Value&gt;
+        &lt;CellAttributes&gt;
+          &lt;Attribute&gt;
+            &lt;Name&gt;class&lt;/Name&gt;
+            &lt;AttributeValue&gt;footer&lt;/AttributeValue&gt;
+          &lt;/Attribute&gt;
+          &lt;Attribute&gt;
+            &lt;Name&gt;style&lt;/Name&gt;
+            &lt;AttributeValue&gt;width:100%;margin:o auto;&lt;/AttributeValue&gt;
+          &lt;/Attribute&gt;
+        &lt;/CellAttributes&gt;
+      &lt;/Cell&gt;
+      &lt;RowAttributes /&gt;
+    &lt;/Row&gt;
+    &lt;Epilog /&gt;
+    &lt;TableAttributes&gt;
+      &lt;Attribute&gt;
+        &lt;Name&gt;cellpadding&lt;/Name&gt;
+        &lt;AttributeValue&gt;0&lt;/AttributeValue&gt;
+      &lt;/Attribute&gt;
+      &lt;Attribute&gt;
+        &lt;Name&gt;cellspacing&lt;/Name&gt;
+        &lt;AttributeValue&gt;0&lt;/AttributeValue&gt;
+      &lt;/Attribute&gt;
+      &lt;Attribute&gt;
+        &lt;Name&gt;border&lt;/Name&gt;
+        &lt;AttributeValue&gt;0&lt;/AttributeValue&gt;
+      &lt;/Attribute&gt;
+    &lt;/TableAttributes&gt;
+  &lt;/Layout&gt;
+&lt;/LayoutDefinition&gt;]]&gt;</LayoutDefinition>
+</ComponentDefinition>
