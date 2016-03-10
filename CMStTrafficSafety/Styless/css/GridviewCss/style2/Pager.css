@@ -1,0 +1,86 @@
+﻿.paggeractive
+{
+  text-decoration:none;
+  background-color:#6aa4d4;
+	
+	
+      cursor: pointer;
+                        color: #FEFFFD;
+                        font-family: Verdana;
+                        font-size: 10px;
+                        font-weight: bold;
+                       
+                      
+                        Border: 0;
+}
+
+.paggerunactive
+
+{ cursor: pointer;
+background-color: transparent;
+    
+    text-decoration:underline;
+  color: #FEFFFD;
+                        font-family: Verdana;
+                        font-size: 10px;
+                        font-weight: bold;
+                       
+                        
+                        Border: 0;
+    
+
+} 
+
+.hoverHilight 
+{
+	
+
+    background-color:#6AA4D4;
+   border-top: 1px solid #D3DCE5;
+   border-bottom: 1px solid #D3DCE5;
+color: #445C76;
+
+
+ 
+    height: 20px;
+    font-family: Verdana;
+	font-size: 10px;
+	font-weight: normal;
+	color: #445c76;
+	text-align: left;
+cursor:pointer;
+}
+
+
+.SelectedRowStyle 
+{height: 21px;
+  background-color: #E4F5D3;
+border-top: 1px solid #D3DCE5;
+color: #445C76;
+font-family: Verdana;
+font-size: 11px;
+font-weight: normal;
+height: 21px;
+text-align: left;
+vertical-align: middle;
+
+   
+
+border-bottom: 1px solid #CCC;
+
+   
+   
+}
+
+.SelectedRowStyle  td
+{height: 21px;
+  background-color: #E4F5D3;
+border-top: 1px solid #D3DCE5;
+color: #445C76;
+font-family: Verdana;
+font-size: 11px;
+font-weight: normal;
+height: 21px;
+text-align: left;
+vertical-align: middle;
+	}
