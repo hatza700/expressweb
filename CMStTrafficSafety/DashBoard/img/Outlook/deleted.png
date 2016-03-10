@@ -1,0 +1,40 @@
+: 1 },
+						focus: 2,
+						submit:function(e,v,m,f){ 
+							if(v==0) 
+								$.prompt.close()
+							else if(v==1)								
+								return true; //we're done
+							else if(v=-1)
+								$.prompt.goToState('state2');//go back
+							return false; 
+						}
+					}
+				}
+				
+				$.prompt(temp,{
+					close: function(e,v,m,f){
+						var str = "You can now process with this given information:<br />";
+						$.each(f,function(i,obj){
+							str += i + " - <em>" + obj + "</em><br />";
+						});	
+						$('#results').html(str);
+					},
+					classes: {
+						box: '',
+						fade: '',
+						prompt: '',
+						close: '',
+						title: 'lead',
+						message: '',
+						buttons: '',
+						button: 'btn',
+						defaultButton: 'btn-primary'
+					}
+				});
+			}
+		</script>
+	</head>
+
+	<body>
+		<a href="javascript:openprompt()">Test Impromptu State

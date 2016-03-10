@@ -1,0 +1,21 @@
+y ThoiGianTaoLabel() As System.Web.UI.WebControls.Literal
+            Get
+                Return CType(BaseClasses.Utils.MiscUtils.FindControlRecursively(Me, "ThoiGianTaoLabel"), System.Web.UI.WebControls.Literal)
+            End Get
+        End Property
+        
+        Public ReadOnly Property TTrafficSafety_18_ThamDoYKienTitle() As System.Web.UI.WebControls.Literal
+            Get
+                Return CType(BaseClasses.Utils.MiscUtils.FindControlRecursively(Me, "TTrafficSafety_18_ThamDoYKienTitle"), System.Web.UI.WebControls.Literal)
+            End Get
+        End Property
+        
+#End Region
+
+#Region "Helper Functions"
+
+        Public Overrides Overloads Function ModifyRedirectUrl(ByVal url As String, ByVal arg As String, ByVal bEncrypt As Boolean) As String
+            Return Me.Page.EvaluateExpressions(url, arg, bEncrypt, Me)
+        End Function
+
+        Public Overrides

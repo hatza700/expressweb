@@ -1,0 +1,358 @@
+        
+            If Me.DataSource IsNot Nothing AndAlso Me.DataSource.NguoiTaoSpecified Then
+                				
+                ' If the NguoiTao is non-NULL, then format the value.
+
+                ' The Format method will use the Display Format
+                                Dim formattedValue As String = Me.DataSource.Format(TTrafficSafety_08_TinTucTable.NguoiTao)
+                              
+                Me.NguoiTao.Text = formattedValue
+                
+            Else 
+            
+                ' NguoiTao is NULL in the database, so use the Default Value.  
+                ' Default Value could also be NULL.
+        
+                Me.NguoiTao.Text = TTrafficSafety_08_TinTucTable.NguoiTao.Format(TTrafficSafety_08_TinTucTable.NguoiTao.DefaultValue)
+                        		
+                End If
+                 
+        End Sub
+                
+        Public Overridable Sub SetNguonTin()
+            
+        
+            ' Set the NguonTin TextBox on the webpage with value from the
+            ' tTrafficSafety_08_TinTuc database record.
+
+            ' Me.DataSource is the tTrafficSafety_08_TinTuc record retrieved from the database.
+            ' Me.NguonTin is the ASP:TextBox on the webpage.
+            
+            ' You can modify this method directly, or replace it with a call to
+            '     MyBase.SetNguonTin()
+            ' and add your own code before or after the call to the MyBase function.
+
+            
+                  
+            If Me.DataSource IsNot Nothing AndAlso Me.DataSource.NguonTinSpecified Then
+                				
+                ' If the NguonTin is non-NULL, then format the value.
+
+                ' The Format method will use the Display Format
+                                Dim formattedValue As String = Me.DataSource.Format(TTrafficSafety_08_TinTucTable.NguonTin)
+                              
+                Me.NguonTin.Text = formattedValue
+                
+            Else 
+            
+                ' NguonTin is NULL in the database, so use the Default Value.  
+                ' Default Value could also be NULL.
+        
+                Me.NguonTin.Text = TTrafficSafety_08_TinTucTable.NguonTin.Format(TTrafficSafety_08_TinTucTable.NguonTin.DefaultValue)
+                        		
+                End If
+                 
+        End Sub
+                
+        Public Overridable Sub SetNoiDung()
+            
+        
+            ' Set the NoiDung TextBox on the webpage with value from the
+            ' tTrafficSafety_08_TinTuc database record.
+
+            ' Me.DataSource is the tTrafficSafety_08_TinTuc record retrieved from the database.
+            ' Me.NoiDung is the ASP:TextBox on the webpage.
+            
+            ' You can modify this method directly, or replace it with a call to
+            '     MyBase.SetNoiDung()
+            ' and add your own code before or after the call to the MyBase function.
+
+            
+                  
+            If Me.DataSource IsNot Nothing AndAlso Me.DataSource.NoiDungSpecified Then
+                				
+                ' If the NoiDung is non-NULL, then format the value.
+
+                ' The Format method will use the Display Format
+                                Dim formattedValue As String = Me.DataSource.Format(TTrafficSafety_08_TinTucTable.NoiDung)
+                              
+                Me.NoiDung.Text = formattedValue
+                
+            Else 
+            
+                ' NoiDung is NULL in the database, so use the Default Value.  
+                ' Default Value could also be NULL.
+        
+                Me.NoiDung.Text = TTrafficSafety_08_TinTucTable.NoiDung.Format(TTrafficSafety_08_TinTucTable.NoiDung.DefaultValue)
+                        		
+                End If
+                 
+        End Sub
+                
+        Public Overridable Sub SetTags()
+            
+        
+            ' Set the Tags TextBox on the webpage with value from the
+            ' tTrafficSafety_08_TinTuc database record.
+
+            ' Me.DataSource is the tTrafficSafety_08_TinTuc record retrieved from the database.
+            ' Me.Tags is the ASP:TextBox on the webpage.
+            
+            ' You can modify this method directly, or replace it with a call to
+            '     MyBase.SetTags()
+            ' and add your own code before or after the call to the MyBase function.
+
+            
+                  
+            If Me.DataSource IsNot Nothing AndAlso Me.DataSource.TagsSpecified Then
+                				
+                ' If the Tags is non-NULL, then format the value.
+
+                ' The Format method will use the Display Format
+                                Dim formattedValue As String = Me.DataSource.Format(TTrafficSafety_08_TinTucTable.Tags)
+                              
+                Me.Tags.Text = formattedValue
+                
+            Else 
+            
+                ' Tags is NULL in the database, so use the Default Value.  
+                ' Default Value could also be NULL.
+        
+                Me.Tags.Text = TTrafficSafety_08_TinTucTable.Tags.Format(TTrafficSafety_08_TinTucTable.Tags.DefaultValue)
+                        		
+                End If
+                 
+        End Sub
+                
+        Public Overridable Sub SetThoiGianSua()
+            
+        
+            ' Set the ThoiGianSua TextBox on the webpage with value from the
+            ' tTrafficSafety_08_TinTuc database record.
+
+            ' Me.DataSource is the tTrafficSafety_08_TinTuc record retrieved from the database.
+            ' Me.ThoiGianSua is the ASP:TextBox on the webpage.
+            
+            ' You can modify this method directly, or replace it with a call to
+            '     MyBase.SetThoiGianSua()
+            ' and add your own code before or after the call to the MyBase function.
+
+            
+                  
+            If Me.DataSource IsNot Nothing AndAlso Me.DataSource.ThoiGianSuaSpecified Then
+                				
+                ' If the ThoiGianSua is non-NULL, then format the value.
+
+                ' The Format method will use the Display Format
+                                Dim formattedValue As String = Me.DataSource.Format(TTrafficSafety_08_TinTucTable.ThoiGianSua, "g")
+                              
+                Me.ThoiGianSua.Text = formattedValue
+                
+            Else 
+            
+                ' ThoiGianSua is NULL in the database, so use the Default Value.  
+                ' Default Value could also be NULL.
+        
+                Me.ThoiGianSua.Text = TTrafficSafety_08_TinTucTable.ThoiGianSua.Format(TTrafficSafety_08_TinTucTable.ThoiGianSua.DefaultValue, "g")
+                        		
+                End If
+                 
+        End Sub
+                
+        Public Overridable Sub SetThoiGianTao()
+            
+        
+            ' Set the ThoiGianTao TextBox on the webpage with value from the
+            ' tTrafficSafety_08_TinTuc database record.
+
+            ' Me.DataSource is the tTrafficSafety_08_TinTuc record retrieved from the database.
+            ' Me.ThoiGianTao is the ASP:TextBox on the webpage.
+            
+            ' You can modify this method directly, or replace it with a call to
+            '     MyBase.SetThoiGianTao()
+            ' and add your own code before or after the call to the MyBase function.
+
+            
+                  
+            If Me.DataSource IsNot Nothing AndAlso Me.DataSource.ThoiGianTaoSpecified Then
+                				
+                ' If the ThoiGianTao is non-NULL, then format the value.
+
+                ' The Format method will use the Display Format
+                                Dim formattedValue As String = Me.DataSource.Format(TTrafficSafety_08_TinTucTable.ThoiGianTao, "g")
+                              
+                Me.ThoiGianTao.Text = formattedValue
+                
+            Else 
+            
+                ' ThoiGianTao is NULL in the database, so use the Default Value.  
+                ' Default Value could also be NULL.
+        
+                Me.ThoiGianTao.Text = TTrafficSafety_08_TinTucTable.ThoiGianTao.Format(TTrafficSafety_08_TinTucTable.ThoiGianTao.DefaultValue, "g")
+                        		
+                End If
+                 
+        End Sub
+                
+        Public Overridable Sub SetThuocDanhMuc()
+            
+        
+            ' Set the ThuocDanhMuc DropDownList on the webpage with value from the
+            ' tTrafficSafety_08_TinTuc database record.
+            
+            ' Me.DataSource is the tTrafficSafety_08_TinTuc record retrieved from the database.
+            ' Me.ThuocDanhMuc is the ASP:DropDownList on the webpage.
+            
+            ' You can modify this method directly, or replace it with a call to
+            '     MyBase.SetThuocDanhMuc()
+            ' and add your own code before or after the call to the MyBase function.
+
+            
+            If Me.DataSource IsNot Nothing AndAlso Me.DataSource.ThuocDanhMucSpecified Then
+                            
+                ' If the ThuocDanhMuc is non-NULL, then format the value.
+                ' The Format method will return the Display Foreign Key As (DFKA) value
+                Me.PopulateThuocDanhMucDropDownList(Me.DataSource.ThuocDanhMuc.ToString(), 100)
+                
+            Else
+                
+                ' ThuocDanhMuc is NULL in the database, so use the Default Value.  
+                ' Default Value could also be NULL.
+                If Me.DataSource IsNot Nothing AndAlso Me.DataSource.IsCreated Then
+                    Me.PopulateThuocDanhMucDropDownList(Nothing, 100)
+                Else
+                    Me.PopulateThuocDanhMucDropDownList(TTrafficSafety_08_TinTucTable.ThuocDanhMuc.DefaultValue, 100)
+                End If
+                				
+            End If			
+                
+        End Sub
+                
+        Public Overridable Sub SetThuTu()
+            
+        
+            ' Set the ThuTu TextBox on the webpage with value from the
+            ' tTrafficSafety_08_TinTuc database record.
+
+            ' Me.DataSource is the tTrafficSafety_08_TinTuc record retrieved from the database.
+            ' Me.ThuTu is the ASP:TextBox on the webpage.
+            
+            ' You can modify this method directly, or replace it with a call to
+            '     MyBase.SetThuTu()
+            ' and add your own code before or after the call to the MyBase function.
+
+            
+                  
+            If Me.DataSource IsNot Nothing AndAlso Me.DataSource.ThuTuSpecified Then
+                				
+                ' If the ThuTu is non-NULL, then format the value.
+
+                ' The Format method will use the Display Format
+                                Dim formattedValue As String = Me.DataSource.Format(TTrafficSafety_08_TinTucTable.ThuTu)
+                              
+                Me.ThuTu.Text = formattedValue
+                
+            Else 
+            
+                ' ThuTu is NULL in the database, so use the Default Value.  
+                ' Default Value could also be NULL.
+        
+                Me.ThuTu.Text = TTrafficSafety_08_TinTucTable.ThuTu.Format(TTrafficSafety_08_TinTucTable.ThuTu.DefaultValue)
+                        		
+                End If
+                 
+        End Sub
+                
+        Public Overridable Sub SetTieuDeBaiViet()
+            
+        
+            ' Set the TieuDeBaiViet TextBox on the webpage with value from the
+            ' tTrafficSafety_08_TinTuc database record.
+
+            ' Me.DataSource is the tTrafficSafety_08_TinTuc record retrieved from the database.
+            ' Me.TieuDeBaiViet is the ASP:TextBox on the webpage.
+            
+            ' You can modify this method directly, or replace it with a call to
+            '     MyBase.SetTieuDeBaiViet()
+            ' and add your own code before or after the call to the MyBase function.
+
+            
+                  
+            If Me.DataSource IsNot Nothing AndAlso Me.DataSource.TieuDeBaiVietSpecified Then
+                				
+                ' If the TieuDeBaiViet is non-NULL, then format the value.
+
+                ' The Format method will use the Display Format
+                                Dim formattedValue As String = Me.DataSource.Format(TTrafficSafety_08_TinTucTable.TieuDeBaiViet)
+                              
+                Me.TieuDeBaiViet.Text = formattedValue
+                
+            Else 
+            
+                ' TieuDeBaiViet is NULL in the database, so use the Default Value.  
+                ' Default Value could also be NULL.
+        
+                Me.TieuDeBaiViet.Text = TTrafficSafety_08_TinTucTable.TieuDeBaiViet.Format(TTrafficSafety_08_TinTucTable.TieuDeBaiViet.DefaultValue)
+                        		
+                End If
+                 
+        End Sub
+                
+        Public Overridable Sub SetAnhMinhHoaLabel()
+                  
+                      Me.AnhMinhHoaLabel.Text = EvaluateFormula("""Ảnh minh họa""")
+                    
+                  End Sub
+                
+        Public Overridable Sub SetIpSuaLabel()
+                  
+                      Me.IpSuaLabel.Text = EvaluateFormula("""Ip sửa""")
+                    
+                  End Sub
+                
+        Public Overridable Sub SetIpTaoLabel()
+                  
+                      Me.IpTaoLabel.Text = EvaluateFormula("""Ip tạo""")
+                    
+                  End Sub
+                
+        Public Overridable Sub SetLaTinTieuDiemLabel()
+                  
+                      Me.LaTinTieuDiemLabel.Text = EvaluateFormula("""Thuộc tin tiêu điểm""")
+                    
+                  End Sub
+                
+        Public Overridable Sub SetLuotXemLabel()
+                  
+                      Me.LuotXemLabel.Text = EvaluateFormula("""Lượt xem""")
+                    
+                  End Sub
+                
+        Public Overridable Sub SetMoTaNganLabel()
+                  
+                      Me.MoTaNganLabel.Text = EvaluateFormula("""Mô tả ngắn""")
+                    
+                  End Sub
+                
+        Public Overridable Sub SetNguoiSuaLabel()
+                  
+                      Me.NguoiSuaLabel.Text = EvaluateFormula("""Người sửa""")
+                    
+                  End Sub
+                
+        Public Overridable Sub SetNguoiTaoLabel()
+                  
+                      Me.NguoiTaoLabel.Text = EvaluateFormula("""Người tạo""")
+                    
+                  End Sub
+                
+        Public Overridable Sub SetNguonTinLabel()
+                  
+                      Me.NguonTinLabel.Text = EvaluateFormula("""Nguồn tin""")
+                    
+                  End Sub
+                
+        Public Overridable Sub SetNoiDungLabel()
+                  
+                      Me.NoiDungLabel.Text = EvaluateFormula("""Nội dung bài viết""")
+            

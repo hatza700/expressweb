@@ -1,0 +1,29 @@
+
+                        return;
+
+                    if (type !== "unused" && type !== "unction")
+                        return;
+
+                    warnUnused(param, func["(tokens)"][param]);
+                    param = params.pop();
+                }
+            });
+
+            for (var key in declared) {
+                if (is_own(declared, key) && !is_own(global, key)) {
+                    warnUnused(key, declared[key]);
+                }
+            }
+        } catch (e) {
+            if (e) {
+                var nt = nexttoken || {};
+                JSHINT.errors.push({
+                    raw       : e.raw,
+                    reason    : e.message,
+                    line      : e.line || nt.line,
+                    character : e.character || nt.from
+                }, null);
+            }
+        }
+
+        // Loop over

@@ -1,0 +1,22 @@
+﻿' This class is "generated" and will be overwritten.
+' Your customizations should be made in TTrafficSafety_15_VanBanSqlTable.vb 
+
+Imports BaseClasses.Data
+Imports BaseClasses
+Imports BaseClasses.Data.SqlProvider
+
+
+Namespace CMStTrafficSafety.Data
+
+''' <summary>
+''' The generated superclass for the <see cref="TTrafficSafety_15_VanBanSqlTable"></see> class.
+''' </summary>
+''' <remarks>
+''' This class is not intended to be instantiated directly.  To obtain an instance of this class, 
+''' use the methods of the <see cref="TTrafficSafety_15_VanBanTable"></see> class.
+''' </remarks>
+''' <seealso cref="TTrafficSafety_15_VanBanTable"></seealso>
+''' <seealso cref="TTrafficSafety_15_VanBanSqlTable"></seealso>
+
+Public Class BaseTTrafficSafety_15_VanBanSqlTable
+	Inherits StoredProceduresSQLServ
